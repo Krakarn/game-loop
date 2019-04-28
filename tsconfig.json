@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "outDir": "./dist"
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}
