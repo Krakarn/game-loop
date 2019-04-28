@@ -2,7 +2,8 @@
   "name": "game-loop",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "start": "parcel ./test/index.html",
     "build": "tsc -p tsconfig.json"
