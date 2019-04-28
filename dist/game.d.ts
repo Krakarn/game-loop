@@ -1,1 +1,1 @@
-export declare const createGame: (update: (canvas: HTMLCanvasElement, ctx: CanvasRenderingContext2D, t: number) => boolean, container?: HTMLElement) => (t: number) => number;
+export declare const createGame: (initialize: (canvas: HTMLCanvasElement, ctx: CanvasRenderingContext2D) => void, update: (canvas: HTMLCanvasElement, ctx: CanvasRenderingContext2D, t: number) => boolean, container?: HTMLElement) => void;
